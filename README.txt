@@ -43,8 +43,8 @@ II Project
 	- Manages all elevators (one instance for project).
 	- In current (default) implementation:
 		- When elevator was called manager uses FindAllElevatorsWhichCanBeSent() to pick elevators meeting any of following requirements:
-			- elevator is on its way to Passenger's floor (e.g. called by someone else)
-			- elevator is on different floor and its state is "Idle" 
+			- Elevator is on its way to Passenger's floor (e.g. called by someone else).
+			- Elevator is on different floor and its state is "Idle".
 		- If list of available elevators is empty, do nothing.
 		- Periodcally (every 1000ms) check, if some floor doesn't need an elevator (which is signaled by Floor's LampUp and LampDown properties).
 
@@ -96,7 +96,13 @@ b) Animation speed
 IV Licence
 ----------
 
+MIT License
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
