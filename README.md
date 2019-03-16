@@ -4,6 +4,7 @@ I Overview
 
 Multi-threaded and scalable elevator simulation written in C# (Windows Forms).
 
+![screenshot](https://user-images.githubusercontent.com/2201475/54477352-343e9b80-4807-11e9-9ee2-86595d06d702.png)
 
 ----------
 II Project
